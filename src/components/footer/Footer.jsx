@@ -49,7 +49,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://mernback-4xh5.onrender.com/api/contact",{
+      const response = await fetch(URL,{
         method: "POST",
         headers: {
           "Content-Type": "application/json",
