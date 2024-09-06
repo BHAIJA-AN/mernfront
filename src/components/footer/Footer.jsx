@@ -3,7 +3,7 @@ import "./footer.css";
 import { Button, Card } from "react-bootstrap";
 import Loading from "../../layout/Loading";
 import { useNavigate } from "react-router-dom";
-
+ 
 const Contact = () => {
   const email = "ahashanmansuri786@gmail.com";
   const URL = import.meta.env.VITE_URL;
